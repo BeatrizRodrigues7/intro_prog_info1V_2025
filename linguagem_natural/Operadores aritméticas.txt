@@ -29,7 +29,14 @@ ler [celsius]
 mostre [fahrenheit]
 
 6. Média ponderada de três notas:
-Leia três notas e seus respectivos pesos e calcule a média ponderada.
+ler [nota1]
+ler [peso1]
+ler [nota2] 
+ler [peso2]
+ler [nota3]
+ler [peso3]
+[média ponderada]= ([nota1]*[peso1])+([nota2]*[peso2])+([nota3]*[peso3])/[peso1]+[peso2]+[peso3])
+mostre [média ponderada]
 
 7. Volume de uma caixa retangular:
 Ler [comprimento]
@@ -38,7 +45,11 @@ ler [altura]
 [volume]= [comprimento]*[largura]*[altura]
 
 8. Valor total da compra:
-Leia o preço de três produtos e exiba o valor total da compra.
+ler [preço1]
+ler [preço2]
+ler [preço3]
+[valor total]=[preço1]+[preço2]+[preço3]
+mostre [valor total]
 
 9. Tempo total de uma viagem:
 ler [horas]
@@ -59,7 +70,10 @@ Ler [minutos]
 mostre [segundos]
 
 12. Cálculo do novo salário:
-Leia um salário e um valor de aumento fixo. Exiba o novo salário.
+ler [salário]
+ler [aumento fixo]
+[novo salário]= [salário]+[aumento fixo]
+mostre [novo salário]
 
 13. Cálculo de juros simples:
 ler [capital]
@@ -91,8 +105,10 @@ ler [idade2]
 mostre[diferença]
 
 18. Média de consumo de combustível:
-Leia a distância percorrida (km) e o total de combustível gasto (litros) e calcule a média de consumo:
-consumo = km / litros.
+ler [Quilometros percorridos]
+ler [litros gastos de gasolina]
+[média de consumo]= [quilometros percorridos]/[litros gastos de gasolina]
+mostre [média de consumo]
 
 19. Valor a pagar em conta dividida:
 Ler [valor total da compra]
@@ -101,4 +117,8 @@ ler [número de pessoas]
 mostre [valor que cada pessoa vai pagar]
 
 20. Cálculo de desconto:
-Leia o valor de um produto e a porcentagem de desconto. Exiba o valor com desconto.
+ler [valor do produto]
+ler [desconto]
+[valor com desconto]=[valor do produto]-[desconto]
+mostre [valor do desconto]
+
